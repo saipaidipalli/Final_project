@@ -100,7 +100,16 @@ nav ul li a {
   margin: 45px 0px 25px;
   line-height: 0px;
 }
-
+/* .text-container button {
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  margin: 0px 10px;
+} */
 .text-container {
   position: absolute;
   left: 13%;
@@ -120,7 +129,11 @@ nav ul li a {
   font-size: 14px;
   outline: none;
 }
-
+/* .down-cv {
+  background-color: #0b0b0b;
+  color: #fff;
+  border: none;
+} */
 button:active {
   transform: scale(1.1);
 }
@@ -529,6 +542,12 @@ footer {
 }
 
 /* Media Quries For Responsiveness */
+
+@media (max-width: 1380px) {
+  .model {
+    height: 480px;
+  }
+}
 
 @media (max-width: 1000px) {
   * {
